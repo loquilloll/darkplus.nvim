@@ -277,6 +277,9 @@ theme.set_highlights = function()
   hl(0, "IlluminatedWordRead", { fg = 'NONE', bg = c.reference })
   hl(0, "IlluminatedWordWrite", { fg = 'NONE', bg = c.reference })
   hl(0, "IlluminatedWordText", { fg = 'NONE', bg = c.reference })
+  hl(0, "LspReferenceRead", { fg = 'NONE', bg = c.reference })
+  hl(0, "LspReferenceWrite", { fg = 'NONE', bg = c.reference })
+  hl(0, "LspReferenceText", { fg = 'NONE', bg = c.reference })
 
   -- cursorword
   hl(0, "MiniCursorword", { fg = 'NONE', bg = c.reference })
